@@ -26,7 +26,7 @@ Visit a live version of the app with this URL -> https://davids-temp-converter.n
 
 ## Acknowledgments
 
-This project was completed as a part of the CWW Africa cohort program. Special thanks to the mentors, instructors, and fellow participants for their support and guidance.
+This project was completed as a part of the CWW Africa cohort program.
 
 ---
 
