@@ -1,6 +1,6 @@
 # Temperature Converter App
 
-This project is a part of the **CWW Africa** cohort program and is a simple temperature converter built using **React** and **Styled Components**. The purpose of the app is to take user input in Celsius or Fahrenheit and convert it to the other unit.
+This project is a part of the **CWW Africa** cohort program and is a simple temperature converter built using **React** and **Styled Components**. The purpose of the app is to take user input in Celsius, Fahrenheit or Kelvin and convert it to the selected unit.
 
 Visit a live version of the app with this URL -> https://davids-temp-converter.netlify.app/
 
