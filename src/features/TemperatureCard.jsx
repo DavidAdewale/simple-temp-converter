@@ -56,6 +56,14 @@ function TemperatureCard() {
       convertedValue = (value * 9) / 5 + 32;
     } else if (from === 'fahrenheit' && to === 'celsius') {
       convertedValue = ((value - 32) * 5) / 9;
+    } else if (from === 'celsius' && to === 'kelvin') {
+      convertedValue = value + 273.15;
+    } else if (from === 'fahrenheit' && to === 'kelvin') {
+      convertedValue = ((value - 32) * 5) / 9 + 273.15;
+    } else if (from === 'kelvin' && to === 'celsius') {
+      convertedValue = value - 273.15;
+    } else if (from === 'kelvin' && to === 'fahrenheit') {
+      convertedValue = (value - 273.15) * 1.8 + 32;
     } else {
       convertedValue = value;
     }
@@ -84,6 +92,7 @@ function TemperatureCard() {
               <select value={from} onChange={(e) => setFrom(e.target.value)}>
                 <option value="celsius">Celsuis</option>
                 <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
               </select>
             </fieldset>
             <fieldset>
@@ -91,6 +100,7 @@ function TemperatureCard() {
               <select value={to} onChange={(e) => setTo(e.target.value)}>
                 <option value="fahrenheit">Fahrenheit</option>
                 <option value="celsius">Celsuis</option>
+                <option value="kelvin">Kelvin</option>
               </select>
             </fieldset>
           </div>
