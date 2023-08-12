@@ -14,9 +14,17 @@ const Form = styled.form`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
+  @media only screen and (max-width: 56.25em) {
+    width: 100%;
+  }
+
   & div {
     display: flex;
     gap: 1rem;
+
+    @media only screen and (max-width: 37.5em) {
+      flex-direction: column;
+    }
   }
 
   & fieldset {

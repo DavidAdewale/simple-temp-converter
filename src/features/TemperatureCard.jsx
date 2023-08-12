@@ -24,6 +24,14 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media only screen and (max-width: 56.25em) {
+    width: 60rem;
+  }
+  @media only screen and (max-width: 37.5em) {
+    width: 35rem;
+    height: auto;
+  }
 `;
 
 const Results = styled.div`

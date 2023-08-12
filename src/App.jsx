@@ -3,7 +3,8 @@ import TemperatureCard from './features/TemperatureCard';
 import GlobalStyles from './style/GlobalStyles';
 
 const Page = styled.div`
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
